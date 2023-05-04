@@ -8,7 +8,6 @@ terraform {
   backend "s3" {
     key            = "wp/terraform.tfstate"
     region         = var.region
-    dynamodb_table = var.wp_dynamo
   }
 }
 

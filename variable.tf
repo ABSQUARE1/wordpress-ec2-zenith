@@ -16,12 +16,6 @@ variable "pass" {
   description = "Password required"
 }
 
-variable "wp_dynamo" {
-  type        = string
-  default     = "dynamo_db"
-  description = "DynamDB for lock"
-}
-
 variable "region" {
   type        = string
   default     = "us-east-1"
